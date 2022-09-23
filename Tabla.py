@@ -13,4 +13,7 @@ def funcion():
         for i in range (a):
             for j in range (b):
                 print("*",end = "" )
+    else:
+        print("Introduzca un número del 1 al 9")
 
+funcion()
