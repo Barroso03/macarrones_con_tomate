@@ -1,19 +1,22 @@
 def funcion():
-    
     while True:
-        try:
-            a = int(input("valor"))
-            b =int(input("valor"))
+        while True:
+            try:
+                a = int(input("valor"))
+                b =int(input("valor"))
             
             
-            break
-        except :
-            print("Error")
-    if a >=1 and 9>=a and b >=1 and 9>=b:
-        for i in range (a):
-            for j in range (b):
-                print("*",end = "" )
-    else:
-        print("Introduzca un número del 1 al 9")
+                break
+            except :
+                print("Error")
+           
+            if a >=1 and 9>=a and b >=1 and 9>=b:
+                for i in range (a):
+                    for j in range (b):
+                        print("*",end = "" )
+                        break
+        
+            else:
+                print("Introduzca un número del 1 al 9")
 
 funcion()
