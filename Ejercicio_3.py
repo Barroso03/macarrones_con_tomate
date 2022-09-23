@@ -12,9 +12,8 @@ def funcion(Lista =[]):
             c!=0
             for i in range (a,b+1,c):
                 Lista.append(i)
-            print(Lista) 
+                print (Lista) 
             break
         except :
             print("Error")
 
-funcion()
